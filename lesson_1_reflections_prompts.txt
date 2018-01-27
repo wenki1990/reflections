@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+diff gave me results showing the difference between the two files.
+I first saw the lines that were replaced in the new version. Then looked for typo in 
+the new lines.
+
+How could having easy access to the entire history of a file make you a more efficient programmer 
+in the long term?
+It will by easier to understand what changes have been done.
+It will also be a lot easier to switch back to preversion in case I want to.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+Commiting Manually
+Pros.
+1.Content is saved only after completion of making a logical change.
+Cons.
+1.Sometimes we forget to commit a logical change
+
+Commiting Automatically
+Pros.
+1.No need to think about saving
+Cons.
+1.File may get saved when the work is still incomplete
+
+Why do you think some version control systems, like Git, allow saving multiple files 
+in one commit, while others, like Google Docs, treat each file separately?
+When a repository has multiple files, the file can be connected.So, commiting changes
+in all the files at once will make them to work as required.Google Docs is mainly for
+editin documents.So, even if each file is commited individually, there won't be any 
+connection b/w each other.
+ 
+
+How can you use the commands git log and git diff to view the history of files?
+git log lists the commits ids and timestamp
+git diff shows the differences in files like addition,deletion when first commit id
+and second commit ids are provided
+
+How might using version control make you more confident to make changes that could break something?
+since git log keeps track of all the commits and messages related to each commit, I can switch 
+back to previous version using checkout if i find something went wrong after a commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+To keep track of files for data science projects
