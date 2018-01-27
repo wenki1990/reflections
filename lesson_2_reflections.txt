@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+A GIT Repository will be tied to the directory from where git init is run.
+An empty git repository is initialized.It can contain the metadata of files in the present
+directory and sub directories.It can keep track of all or a few of the files present in the
+directory or sub-directories.
+
+
+How is the staging area different from the working directory and the repository? What value 
+do you think it offers?
+Staging area is an intermediate level between working directory and repository.
+It gives us the flexibility of choosing what files to be commited in a single 
+commit.
