@@ -9,12 +9,21 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Someone on the other side of the world can make changes to remote repository
+    or it could be me. So, I don't want the changes to be automatically updated 
+    into my local repo.I want to make sure what changes am I pulling.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork: Cloning a git repository of one account on GitHub  to another account on GitHub.
+	  I would use this if I find a repository on GitHub which serves the purpose I intended to.
+	  So, it would be lot easier for me to directly use than to develop from scratch.
+   Clone: Cloning is done to copy a git repository from GitHub to local computer.
+	  This done if the files in the repository cannot be edited on GitHub.
+   Branches: These are created on commits in scenarious like you want a different version 
+	     or feature without disturbing the main working code.
+	  
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
