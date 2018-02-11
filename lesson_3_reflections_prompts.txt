@@ -28,12 +28,16 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If any changes were introduced since then on remote, then while updating the local,
+    we can make these changes to update on a separate branch(remote branch), see the diff
+    in state of files on remote branch and master branch and merge them accordingly.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I have no idea. Most probably with something like gmail or so.
+    I think collaborating on GitHub would be a lot easier than those
+    I can think of.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
